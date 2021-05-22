@@ -1,0 +1,52 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+}
+button{
+    border-radius: 7px;
+    padding: 4px 6px;
+    background-color: var(--main-bg-color);
+    border:2px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+ button:hover{
+    font-weight: bolder;
+}
+.my-2{
+    margin: 20px 0;
+}
+
+.text-center{
+    text-align: center;
+
+}
+.my-1{
+    margin: 5px 0;
+}
+.lines:hover{
+    font-weight: bolder;
+}
+
+.animate img{
+    animation: widthanimation 3s ease-in-out 0.5s infinite alternate;
+
+}
+@keyframes widthaniamtion {
+    from{
+        width: 50px;
+        height: 60px;
+    }
+    to{
+        width: 120px;
+        height: 120px;
+
+    }
+}
